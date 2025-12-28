@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supporto | HR Gestione Turni</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #0f172a;
+        color: #94a3b8;
+      }
+      .text-glow {
+        text-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+      }
+      .card-hover:hover {
+        background-color: rgba(30, 41, 59, 0.5);
+        border-color: rgba(56, 189, 248, 0.3);
+      }
+    </style>
+  </head>
+  <body class="selection:bg-sky-500/30">
+    <div class="max-w-6xl mx-auto px-6 py-12 lg:py-24">
+      <div class="lg:flex lg:justify-between lg:gap-12">
+        <!-- Left Column: Branding & Navigation -->
+        <header
+          class="lg:sticky lg:top-24 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between py-12 lg:py-0"
+        >
+          <div>
+            <h1
+              class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl text-glow"
+            >
+              <a href="/">HR Gestione Turni</a>
+            </h1>
+            <h2
+              class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
+            >
+              Centro Supporto
+            </h2>
+            <p class="mt-4 max-w-xs leading-normal">
+              Semplifica la gestione dei turni e del personale con la nostra
+              piattaforma intuitiva.
+            </p>
+
+            <nav class="mt-16 hidden lg:block">
+              <ul class="w-max">
+                <li>
+                  <a class="group flex items-center py-3 active" href="#about"
+                    ><span
+                      class="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"
+                    ></span
+                    ><span
+                      class="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+                      >L'Applicazione</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a class="group flex items-center py-3" href="#features"
+                    ><span
+                      class="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"
+                    ></span
+                    ><span
+                      class="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+                      >Funzionalità</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a class="group flex items-center py-3" href="#contact"
+                    ><span
+                      class="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"
+                    ></span
+                    ><span
+                      class="text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+                      >Contatti</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="mt-8 flex items-center gap-5">
+            <a
+              href="#"
+              class="text-slate-400 hover:text-slate-200 transition-colors"
+              >App Store</a
+            >
+            <a
+              href="#"
+              class="text-slate-400 hover:text-slate-200 transition-colors"
+              >Play Store</a
+            >
+          </div>
+        </header>
+
+        <!-- Right Column: Content -->
+        <main class="lg:w-1/2 lg:py-24">
+          <!-- About Section -->
+          <section
+            id="about"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+          >
+            <p class="mb-4">
+              HR Gestione Turni è l'app semplice e potente per la pianificazione
+              dei dipendenti e la gestione del team. Nata per eliminare la
+              complessità dei fogli Excel, offre un'interfaccia moderna per
+              manager e collaboratori.
+            </p>
+            <p class="mb-4">
+              I manager possono creare orari in pochi secondi, evitare
+              conflitti, approvare ferie e gestire scambi di turno, tutto in un
+              unico posto centralizzato.
+            </p>
+            <p>
+              I dipendenti hanno sempre i loro turni a portata di mano, possono
+              aggiornare la disponibilità e ricevere notifiche istantanee per
+              ogni cambiamento.
+            </p>
+          </section>
+
+          <!-- Features Section -->
+          <section
+            id="features"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+          >
+            <div class="space-y-12">
+              <div
+                class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100"
+              >
+                <div
+                  class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+                ></div>
+                <header
+                  class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                >
+                  Gestione
+                </header>
+                <div class="z-10 sm:col-span-6">
+                  <h3 class="font-medium leading-snug text-slate-200">
+                    Pianificazione Intelligente
+                  </h3>
+                  <p class="mt-2 text-sm leading-normal">
+                    Crea programmi settimanali o mensili con un solo tocco. Il
+                    sistema rileva automaticamente sovrapposizioni o carichi di
+                    lavoro eccessivi.
+                  </p>
+                  <ul class="mt-2 flex flex-wrap gap-2">
+                    <li
+                      class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300"
+                    >
+                      Smart Calendar
+                    </li>
+                    <li
+                      class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300"
+                    >
+                      Auto-Conflict
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100"
+              >
+                <div
+                  class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+                ></div>
+                <header
+                  class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                >
+                  Team
+                </header>
+                <div class="z-10 sm:col-span-6">
+                  <h3 class="font-medium leading-snug text-slate-200">
+                    Richieste e Scambi
+                  </h3>
+                  <p class="mt-2 text-sm leading-normal">
+                    Gestisci ferie, permessi e scambi di turno tra colleghi con
+                    un sistema di approvazione rapido e notifiche push in tempo
+                    reale.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+          <section
+            id="contact"
+            class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+          >
+            <h2 class="text-xl font-bold text-slate-200 mb-6">
+              Hai bisogno di aiuto?
+            </h2>
+            <div
+              class="p-6 rounded-lg border border-slate-700/50 bg-slate-800/30"
+            >
+              <p class="text-sm mb-6">
+                Il nostro team di supporto è disponibile dal lunedì al venerdì,
+                dalle 09:00 alle 18:00.
+              </p>
+              <div class="space-y-4">
+                <a
+                  href="mailto:4ndi.picaku.03@gmail.com"
+                  class="block text-sky-400 hover:text-sky-300 transition-colors"
+                  >4ndi.picaku.03@gmail.com</a
+                >
+                <p class="text-xs text-slate-500">
+                  Rispondiamo solitamente entro 24 ore lavorative.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <footer class="max-w-md pb-16 text-xs text-slate-500 sm:pb-0">
+            <p>
+              © 2026 HR Gestione Turni. Tutti i diritti riservati. <br />
+              <a
+                href="privacy-policy.html"
+                class="font-medium text-slate-400 hover:text-sky-400 transition-colors"
+                >Privacy Policy</a
+              >
+              ·
+              <a
+                href="terms-conditions.html"
+                class="font-medium text-slate-400 hover:text-sky-400 transition-colors"
+                >Termini di Servizio</a
+              >
+            </p>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
